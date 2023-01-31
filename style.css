@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    padding:0;
+    margin:0;
+}
+
+#menu{
+    padding:10px 0px;
+}
+#menu ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin:0;
+}
+#menu li{
+    display: inline-block;
+    margin:0 10px;
+    vertical-align: middle;
+}
+#menu li a{
+    color: black;
+    text-decoration:none;
+}
+#menu li#contact{
+    background-color: black;
+    padding:8px 12px;
+    float: right;
+}
+#menu li#contact a{
+    color: white;
+}
+
+main{
+    text-align: center;
+}
